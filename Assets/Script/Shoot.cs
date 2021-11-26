@@ -12,7 +12,7 @@ public class Shoot : MonoBehaviour
     List<GameObject> ObjUsed = new List<GameObject>();
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             Vector3 mouseDir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
 
