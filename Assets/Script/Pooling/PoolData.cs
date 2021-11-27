@@ -7,4 +7,5 @@ public class PoolData : ScriptableObject
 {
     public GameObject prefabs;
     public int NumberPool;
+    public Enemy enemy;
 }

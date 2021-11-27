@@ -17,7 +17,7 @@ public class ObjectPooling : MonoBehaviour
 
         for(int i = 0; i < poolData.NumberPool; i++)
         {
-            GameObject obj = Instantiate(poolData.prefabs);
+            GameObject obj = Instantiate(poolData.prefabs,transform);
             ObjReturn(obj);
         }
     }
