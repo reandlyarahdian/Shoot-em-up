@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour
     {
         if (player == null)
         {
-            player = FindObjectOfType<Movement>().gameObject;
+            player = FindObjectOfType<PlayerManager>().gameObject;
         }
         foreach (Enemy agent in avail)
         {

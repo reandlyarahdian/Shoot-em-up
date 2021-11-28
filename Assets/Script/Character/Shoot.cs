@@ -5,11 +5,20 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     [SerializeField] private ObjectPooling pool;
-    [SerializeField] private float speed;
+    public float speed;
     [SerializeField] private float removalTime;
     private float removalTimer;
 
     List<GameObject> ObjUsed = new List<GameObject>();
+
+    private void Start()
+    {
+        if(pool == null)
+        {
+            pool = FindObjectOfType<ObjectPooling>();
+        }
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(1))

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectPooling : MonoBehaviour
 {
     private List<GameObject> avail = new List<GameObject>();
+    [SerializeField] private PoolData[] pools;
     [SerializeField] private PoolData poolData;
     [SerializeField] private Transform player;
 
@@ -15,11 +16,21 @@ public class ObjectPooling : MonoBehaviour
             return;
         }
 
+        if(player == null)
+        {
+            player = FindObjectOfType<PlayerManager>().transform;
+        }
+
         for(int i = 0; i < poolData.NumberPool; i++)
         {
             GameObject obj = Instantiate(poolData.prefabs,transform);
             ObjReturn(obj);
         }
+    }
+
+    public void Data(int poolNum)
+    {
+        poolData = pools[poolNum];
     }
 
     public void ObjReturn(GameObject obj)

@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    private Rigidbody2D rb;
+    public float speed;
     private bool move;
     Vector3 mousePos;
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
 
     void Update()
     {
@@ -37,7 +32,7 @@ public class Movement : MonoBehaviour
     void RotateObj()
     {
         Vector3 MouseFace = Input.mousePosition;
-        MouseFace.z = 0; //The distance between the camera and object
+        MouseFace.z = 0;
         Vector3 objFace = Camera.main.WorldToScreenPoint(transform.position);
         MouseFace.x = MouseFace.x - objFace.x;
         MouseFace.y = MouseFace.y - objFace.y;
