@@ -8,7 +8,7 @@ public class MeshGenerator : MonoBehaviour {
 	public MeshFilter walls;
 	public MeshFilter cave;
 
-	public bool is2D;
+	//public bool is2D;
 
 	List<Vector3> vertices;
 	List<int> triangles;
@@ -49,51 +49,52 @@ public class MeshGenerator : MonoBehaviour {
 			uvs[i] = new Vector2(percentX,percentY);
 		}
 		mesh.uv = uvs;
-	
 
-		if (is2D) {
-			Generate2DColliders();
-		} else {
-			CreateWallMesh ();
-		}
+		Generate2DColliders();
+
+		//if (is2D) {
+		//	Generate2DColliders();
+		//} else {
+		//	CreateWallMesh ();
+		//}
 	}
 
-	void CreateWallMesh() {
+	//void CreateWallMesh() {
 
-		MeshCollider currentCollider = GetComponent<MeshCollider> ();
-		Destroy(currentCollider);
+	//	MeshCollider currentCollider = GetComponent<MeshCollider> ();
+	//	Destroy(currentCollider);
 
-		CalculateMeshOutlines ();
+	//	CalculateMeshOutlines ();
 
-		List<Vector3> wallVertices = new List<Vector3> ();
-		List<int> wallTriangles = new List<int> ();
-		Mesh wallMesh = new Mesh ();
-		float wallHeight = 5;
+	//	List<Vector3> wallVertices = new List<Vector3> ();
+	//	List<int> wallTriangles = new List<int> ();
+	//	Mesh wallMesh = new Mesh ();
+	//	float wallHeight = 5;
 
-		foreach (List<int> outline in outlines) {
-			for (int i = 0; i < outline.Count -1; i ++) {
-				int startIndex = wallVertices.Count;
-				wallVertices.Add(vertices[outline[i]]); // left
-				wallVertices.Add(vertices[outline[i+1]]); // right
-				wallVertices.Add(vertices[outline[i]] - Vector3.up * wallHeight); // bottom left
-				wallVertices.Add(vertices[outline[i+1]] - Vector3.up * wallHeight); // bottom right
+	//	foreach (List<int> outline in outlines) {
+	//		for (int i = 0; i < outline.Count -1; i ++) {
+	//			int startIndex = wallVertices.Count;
+	//			wallVertices.Add(vertices[outline[i]]); // left
+	//			wallVertices.Add(vertices[outline[i+1]]); // right
+	//			wallVertices.Add(vertices[outline[i]] - Vector3.up * wallHeight); // bottom left
+	//			wallVertices.Add(vertices[outline[i+1]] - Vector3.up * wallHeight); // bottom right
 
-				wallTriangles.Add(startIndex + 0);
-				wallTriangles.Add(startIndex + 2);
-				wallTriangles.Add(startIndex + 3);
+	//			wallTriangles.Add(startIndex + 0);
+	//			wallTriangles.Add(startIndex + 2);
+	//			wallTriangles.Add(startIndex + 3);
 
-				wallTriangles.Add(startIndex + 3);
-				wallTriangles.Add(startIndex + 1);
-				wallTriangles.Add(startIndex + 0);
-			}
-		}
-		wallMesh.vertices = wallVertices.ToArray ();
-		wallMesh.triangles = wallTriangles.ToArray ();
-		walls.mesh = wallMesh;
+	//			wallTriangles.Add(startIndex + 3);
+	//			wallTriangles.Add(startIndex + 1);
+	//			wallTriangles.Add(startIndex + 0);
+	//		}
+	//	}
+	//	wallMesh.vertices = wallVertices.ToArray ();
+	//	wallMesh.triangles = wallTriangles.ToArray ();
+	//	walls.mesh = wallMesh;
 
-		MeshCollider wallCollider = gameObject.AddComponent<MeshCollider> ();
-		wallCollider.sharedMesh = wallMesh;
-	}
+	//	MeshCollider wallCollider = gameObject.AddComponent<MeshCollider> ();
+	//	wallCollider.sharedMesh = wallMesh;
+	//}
 
 	void Generate2DColliders() {
 
