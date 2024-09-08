@@ -34,7 +34,7 @@ namespace CaveExploration
 		private int currentCollectibles = 0;
 		private GameObject parentContainer;
 			
-		void Start ()
+		void Awake ()
 		{
 			parentContainer = new GameObject ("Collectibles");
 		}

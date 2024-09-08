@@ -314,7 +314,7 @@ MonoBehaviour:
     y: 0
     width: 90
     height: 60
-  DrawBackground: 0
+  DrawBackground: 1
   NumberOfTransistionSteps: 4
   ChanceToBecomeWall: 0.36
   FloorsToWallConversion: 4
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c03e8c446b0546b28f9616fd15a476d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsDebug: 1
+  IsDebug: 0
 --- !u!114 &662049264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,8 +694,8 @@ GameObject:
   - component: {fileID: 1225798953}
   - component: {fileID: 1225798952}
   - component: {fileID: 1225798950}
-  - component: {fileID: 1225798949}
   - component: {fileID: 1225798954}
+  - component: {fileID: 1225798955}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -703,14 +703,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1225798949
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1225798948}
-  m_Enabled: 1
 --- !u!124 &1225798950
 Behaviour:
   m_ObjectHideFlags: 0
@@ -798,6 +790,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Displacement: {x: 0, y: 0, z: -5}
+--- !u!81 &1225798955
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225798948}
+  m_Enabled: 1
 --- !u!850595691 &1288692362
 LightingSettings:
   m_ObjectHideFlags: 0

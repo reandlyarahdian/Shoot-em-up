@@ -5,38 +5,28 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float speed;
-    private bool move;
-    Vector3 mousePos;
+    bool IsFacingRight;
+    Rigidbody2D rb2D;
 
-    void Update()
+    private void Start()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            mousePos.z = 0;
-            move = true;
-            
-        }
-        if (move && transform.position != mousePos)
-        {
-            float step = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, mousePos, step);
-        }
-        else
-        {
-            move = false;
-        }
-        RotateObj();
+        rb2D = GetComponent<Rigidbody2D>();
     }
 
-    void RotateObj()
+    void FixedUpdate()
     {
-        Vector3 MouseFace = Input.mousePosition;
-        MouseFace.z = 0;
-        Vector3 objFace = Camera.main.WorldToScreenPoint(transform.position);
-        MouseFace.x = MouseFace.x - objFace.x;
-        MouseFace.y = MouseFace.y - objFace.y;
-        float angle = Mathf.Atan2(MouseFace.y, MouseFace.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+        Vector2 movePos = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        rb2D.velocity = movePos * speed;
+
+        if ((movePos.x > 0 && !IsFacingRight) || (movePos.x < 0 && IsFacingRight))
+            Flip();
+
+    }
+    private void Flip()
+    {
+        IsFacingRight = !IsFacingRight;
+        var theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
