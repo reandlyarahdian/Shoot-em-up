@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Seed: 7
-  PlayerPrefab: {fileID: 140796, guid: a86cd13a923884518a41caead7449698, type: 3}
+  PlayerPrefab: {fileID: 140796, guid: 6d381de609127fa43ab0610e375a3a73, type: 3}
   EndCollectiblePrefab: {fileID: 171778, guid: c442ab8bb222942d9a6fb185a18cfcdf, type: 3}
 --- !u!114 &1125863409
 MonoBehaviour:
@@ -626,14 +626,15 @@ MonoBehaviour:
   - {fileID: 147902, guid: 9a912502ffb774de886f52780d50b36e, type: 3}
   - {fileID: 174180, guid: 5c6ea5e38fcd74327956f7134424f375, type: 3}
   - {fileID: 181522, guid: bc4a080d8b89444149ea5c624e4fd391, type: 3}
-  - {fileID: 195978, guid: 01c2ea09db26b4dfaac5a31ddcfb2a6c, type: 3}
+  - {fileID: 195978, guid: 8a494ac7a0122014bb43f1e96be70764, type: 3}
   - {fileID: 164694, guid: 98d9f961310454001a8cccbb6050b40b, type: 3}
   - {fileID: 190392, guid: cf28caae10a0b499a8998566c9c34188, type: 3}
   - {fileID: 179170, guid: cb92c4a872cab42e9b742a14d6192475, type: 3}
   - {fileID: 105484, guid: c9b234ee6586441868918befd3dd56ab, type: 3}
-  - {fileID: 140796, guid: a86cd13a923884518a41caead7449698, type: 3}
+  - {fileID: 140796, guid: 6d381de609127fa43ab0610e375a3a73, type: 3}
   - {fileID: 171778, guid: c442ab8bb222942d9a6fb185a18cfcdf, type: 3}
-  amountToBuffer: 60090000280000000a00000005000000020000000a0000000a0000000a0000000100000001000000
+  - {fileID: 195978, guid: 8b63b732cfec0fe4e92630142cff4a7d, type: 3}
+  amountToBuffer: 60090000280000000a00000005000000020000000a0000000a0000000a00000001000000010000000a000000
   defaultBufferAmount: 10
 --- !u!4 &1125863423
 Transform:
@@ -690,7 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf8e1fdf674ef484ebc83044d0c1e7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Displacement: {x: 0, y: 0, z: -5}
+  Displacement: {x: 0, y: 0, z: -3}
 --- !u!124 &1271876560
 Behaviour:
   m_ObjectHideFlags: 0
@@ -734,7 +735,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.8
+  orthographic size: 0.25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

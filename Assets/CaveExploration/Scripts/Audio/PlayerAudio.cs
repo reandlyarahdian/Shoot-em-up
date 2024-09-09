@@ -73,13 +73,13 @@ namespace CaveExploration
 	
 		void FixedUpdate ()
 		{
-			if (!groundCheck.IsGrounded && _rigidbody2D.velocity.y < -1f) {
-				var volume = _rigidbody2D.velocity.y * -0.02f;
-				var pitch = 1.5f + (_rigidbody2D.velocity.y * 0.05f);
-				audioPlayer.PlaySound (FallingAudio, volume, pitch);
-			} else if (player.HasJumped) {
-				audioPlayer.PlaySound (JumpAudio, 0.6f);
-			}
+			//if (!groundCheck.IsGrounded && _rigidbody2D.velocity.y < -1f) {
+			//	var volume = _rigidbody2D.velocity.y * -0.02f;
+			//	var pitch = 1.5f + (_rigidbody2D.velocity.y * 0.05f);
+			//	audioPlayer.PlaySound (FallingAudio, volume, pitch);
+			//} else if (player.HasJumped) {
+			//	audioPlayer.PlaySound (JumpAudio, 0.6f);
+			//}
 		}
 
 

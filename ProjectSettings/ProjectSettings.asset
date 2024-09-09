@@ -773,8 +773,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Cave Exploration Starter Kit
-  metroPackageVersion: 
+  metroPackageName: CaveExplorationStarterKit
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -782,7 +782,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Cave Exploration Starter Kit
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Cave Exploration Starter Kit
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

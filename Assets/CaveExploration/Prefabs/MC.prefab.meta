@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d381de609127fa43ab0610e375a3a73
+labels:
+- Character
+- Player
+- Terrain
+- Procedural
+- Jet
+- Jetpack
+timeCreated: 1430999371
+licenseType: Free
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

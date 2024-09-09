@@ -475,6 +475,7 @@ GameObject:
   - component: {fileID: 8221334}
   - component: {fileID: 11401378}
   - component: {fileID: 11421790}
+  - component: {fileID: 5120763983868299621}
   m_Layer: 9
   m_Name: player
   m_TagString: Player
@@ -700,13 +701,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745c85bec940e4c0e9115bf3baaab218, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Capacity: 10
-  Throwable: {fileID: 195978, guid: 01c2ea09db26b4dfaac5a31ddcfb2a6c, type: 3}
   Force: 3
   SpeechOnEmpty:
   - Empty...
   - I have no more!
   - Better find some light fast...
+  CoolDown: 0
+  AnimWait: 0
 --- !u!114 &11415394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -849,6 +850,18 @@ MonoBehaviour:
   JumpAudio: {fileID: 8300000, guid: 3148425e3a4cf43a6a4af6dd54b9b8cd, type: 3}
   HurtAudio: {fileID: 8300000, guid: d2d244a8079fb474dbc57b3c2c0f22cc, type: 3}
   SpawnSound: {fileID: 8300000, guid: 01959ef0f824f44348e603f0c9425b0f, type: 3}
+--- !u!114 &5120763983868299621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a494c151dbbcd4ca5a2cb72448a2e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &150718
 GameObject:
   m_ObjectHideFlags: 0
