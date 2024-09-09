@@ -46,7 +46,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.6397059, g: 0.56431663, b: 0.24929716, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 6
   m_Range: 3
   m_SpotAngle: 30
@@ -381,8 +381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Throwables:
-  - {fileID: 195978, guid: 8b63b732cfec0fe4e92630142cff4a7d, type: 3}
   - {fileID: 195978, guid: 8a494ac7a0122014bb43f1e96be70764, type: 3}
+  - {fileID: 195978, guid: 8b63b732cfec0fe4e92630142cff4a7d, type: 3}
   Capacity: 1027000010270000
 --- !u!50 &5013006
 Rigidbody2D:
@@ -473,6 +473,7 @@ MonoBehaviour:
   LowHealthThreshold: 2
   HurtColour: {r: 0.78676474, g: 0.057850357, b: 0.057850357, a: 1}
   DamageAnimationTime: 0.6
+  player: {fileID: 11483478}
 --- !u!114 &11426614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,6 +506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a494c151dbbcd4ca5a2cb72448a2e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isAttacking: 0
+  isCast: 0
+  isDying: 0
 --- !u!82 &8221334
 AudioSource:
   m_ObjectHideFlags: 0

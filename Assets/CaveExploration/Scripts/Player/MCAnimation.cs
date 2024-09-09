@@ -19,12 +19,28 @@ namespace CaveExploration
         public bool isAttacking;
         public bool isCast;
         public bool isDying;
+        private bool isSpawning = true;
+
+        /// <summary>
+        /// Gets a value indicating whether this instance is spawning.
+        /// </summary>
+        /// <value><c>true</c> if this instance is spawning; otherwise, <c>false</c>.</value>
+        public bool IsSpawning { get { return isSpawning; } }
 
         private bool eventRaised = false;
 
+        /// <summary>
+        /// Sets spawning as finished.
+        /// </summary>
         public void FinishedSpawning()
         {
-            Events.instance.Raise(new PlayerSpawnedEvent(transform));
+            isSpawning = false;
+
+            if (!eventRaised)
+            {
+                Events.instance.Raise(new PlayerSpawnedEvent(transform));
+                eventRaised = true;
+            }
         }
 
         void Awake()
@@ -39,6 +55,7 @@ namespace CaveExploration
             isDying = false;
             isAttacking = false;
             isCast = false;
+            eventRaised = false;
         }
 
         private void ResetAnimation()
@@ -51,6 +68,10 @@ namespace CaveExploration
 
         void LateUpdate()
         {
+            if (isSpawning)
+            {
+                return;
+            }
             ResetAnimation();
 
             HandleGroundedJetAnimation();

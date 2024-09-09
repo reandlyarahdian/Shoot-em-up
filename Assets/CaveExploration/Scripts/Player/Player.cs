@@ -112,13 +112,15 @@ namespace CaveExploration
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
-			if (IsDead) {
+			if (IsDead || animation.IsSpawning) {
 				moveX = 0f;
 				moveY = 0f;
 				moveSpeed = 0f;
 				return;
 			}
-	
+			
+			if(IsDash)
+				return;
 
 			// Clamp Move.
 			moveX = Input.GetAxisRaw ("Horizontal");
@@ -151,13 +153,17 @@ namespace CaveExploration
 
             animation.isDying = IsDead;
 
-   //         if (IntroductorySpeech.instance.InProgress) {
-			//	return;
-			//}
+            if (animation.IsSpawning)
+            {
+                IsDead = false;
+                return;
+            }
 
-			if (IsDead)
+            if (IsDead)
 				return;
 
+            if (IsDash)
+                return;
 
             //var isGrounded = groundCheck.IsGrounded;
 

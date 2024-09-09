@@ -117,17 +117,24 @@ namespace CaveExploration
             if (Force > 1)
             {
                 animation.isCast = true;
+
+                yield return new WaitForSeconds(AnimWait);
+
+                currentThrowable = ObjectManager.instance.GetObject(Throwable.name, outPlace.transform.position);
+
+                currentThrowable.GetComponent<Rigidbody2D>().AddForce(dir * Force);
             }
             else
             {
                 animation.isAttacking = true;
+
+                currentThrowable = ObjectManager.instance.GetObject(Throwable.name, outPlace.transform.position);
+
+                currentThrowable.GetComponent<Rigidbody2D>().AddForce(dir * Force);
+
+                yield return new WaitForSeconds(AnimWait);
             }
 
-            currentThrowable = ObjectManager.instance.GetObject(Throwable.name, outPlace.transform.position);
-
-			currentThrowable.GetComponent<Rigidbody2D>().AddForce(dir * Force);
-
-            yield return new WaitForSeconds(AnimWait);
 
             animation.isCast = false;
             animation.isAttacking = false;

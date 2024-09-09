@@ -47,6 +47,8 @@ namespace CaveExploration
 		private Color spriteColour;
 		private bool applyDamage = true;
 
+		public Player player;
+
 		void Awake ()
 		{
 			_audio = GetComponent<PlayerAudio> ();
@@ -92,7 +94,7 @@ namespace CaveExploration
 			currentHealth -= e.DamageAmount;
 
 			if (currentHealth <= 0) {
-				OnDead ();
+                StartCoroutine(Dead());
 				return;
 			}
 
@@ -132,7 +134,19 @@ namespace CaveExploration
 			
 		}
 
-		private void Speak (string[] options)
+
+        private IEnumerator Dead()
+        {
+			if(player != null)
+			{
+				player.IsDead = true;
+			}
+            yield return new WaitForSeconds(1.5f);
+
+            OnDead();
+        }
+
+        private void Speak (string[] options)
 		{
 			if (speech && options != null && options.Length > 0) {
 				speech.Speak (options [Random.Range (0, options.Length)]);
