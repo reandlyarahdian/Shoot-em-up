@@ -107,7 +107,9 @@ namespace CaveExploration
 		private void OnDead (GameEvent e)
 		{
 			IsDead = true;
-		}
+
+            animation.isDying = true;
+        }
 	
 		// Update is called once per frame
 		void FixedUpdate ()
@@ -116,7 +118,8 @@ namespace CaveExploration
 				moveX = 0f;
 				moveY = 0f;
 				moveSpeed = 0f;
-				return;
+                animation.isDying = true;
+                return;
 			}
 			
 			if(IsDash)
@@ -150,17 +153,20 @@ namespace CaveExploration
 		void Update ()
 		{
 			//HasJumped = false;
-
-            animation.isDying = IsDead;
-
-            if (animation.IsSpawning)
+			
+			if (animation.IsSpawning)
             {
                 IsDead = false;
-                return;
+                animation.isDying = false;
+                animation.FinishedSpawning();
+				return;
             }
 
-            if (IsDead)
-				return;
+			if (IsDead)
+			{
+                animation.isDying = true;
+                return;
+			}
 
             if (IsDash)
                 return;

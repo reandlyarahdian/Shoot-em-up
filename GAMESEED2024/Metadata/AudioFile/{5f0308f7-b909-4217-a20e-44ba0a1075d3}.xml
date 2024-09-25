@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5f0308f7-b909-4217-a20e-44ba0a1075d3}">
+		<property name="assetPath">
+			<value>SFX/Enemy/Normal/ENEMY_NORMAL_STEP_GRASS2.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55555555555555558</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea80139b-fc25-4fef-918e-3b5b64e8ced3}</destination>
+		</relationship>
+	</object>
+</objects>

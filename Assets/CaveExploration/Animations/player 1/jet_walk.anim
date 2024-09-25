@@ -22,22 +22,22 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1680202500, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
-    - time: 0.2
+    - time: 0.33333334
       value: {fileID: -1666147029, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
-    - time: 0.4
+    - time: 0.6666667
       value: {fileID: 1252159356, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
-    - time: 0.6
-      value: {fileID: -1169946006, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
-    - time: 0.8
-      value: {fileID: 1635701724, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
     - time: 1
+      value: {fileID: -1169946006, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
+    - time: 1.3333334
+      value: {fileID: 1635701724, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
+    - time: 1.6666666
       value: {fileID: 1870318305, guid: 346169cd8ce481243ae9feaeb11b3e99, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 10
+  m_SampleRate: 6
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -65,7 +65,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1
+    m_StopTime: 1.8333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -85,14 +85,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.2
+  - time: 0.33333334
     functionName: PlayStepAudio
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.8
+  - time: 1.3333334
     functionName: PlayStepAudio
     data: 
     objectReferenceParameter: {fileID: 0}

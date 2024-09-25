@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7eb4e4bb-8e09-4b28-958b-66429e698943}">
+		<property name="name">
+			<value>Magic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8d4b543a-0d9a-4dcb-9555-191734e22432}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{aebc2764-a7de-4b2f-a577-f47a5252e2c2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{aebc2764-a7de-4b2f-a577-f47a5252e2c2}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Fire</value>
+			<value>Water</value>
+			<value>Earth</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

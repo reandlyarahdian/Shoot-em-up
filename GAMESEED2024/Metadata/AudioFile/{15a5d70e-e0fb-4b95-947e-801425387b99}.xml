@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{15a5d70e-e0fb-4b95-947e-801425387b99}">
+		<property name="assetPath">
+			<value>SFX/Player/PLAYER_STEP_GRASS3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.35147392290249435</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea80139b-fc25-4fef-918e-3b5b64e8ced3}</destination>
+		</relationship>
+	</object>
+</objects>

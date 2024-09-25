@@ -381,8 +381,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Throwables:
-  - {fileID: 195978, guid: 8a494ac7a0122014bb43f1e96be70764, type: 3}
   - {fileID: 195978, guid: 8b63b732cfec0fe4e92630142cff4a7d, type: 3}
+  - {fileID: 195978, guid: 8a494ac7a0122014bb43f1e96be70764, type: 3}
   Capacity: 1027000010270000
 --- !u!50 &5013006
 Rigidbody2D:

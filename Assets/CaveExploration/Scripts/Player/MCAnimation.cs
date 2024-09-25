@@ -55,6 +55,7 @@ namespace CaveExploration
             isDying = false;
             isAttacking = false;
             isCast = false;
+            isSpawning = true;
             eventRaised = false;
         }
 

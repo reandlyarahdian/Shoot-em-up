@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5553b620-8506-4804-9b75-42d4e0249135}">
+		<property name="assetPath">
+			<value>SFX/Enemy/Wolf/ENEMY_WOLF_IDLE3.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.25</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea80139b-fc25-4fef-918e-3b5b64e8ced3}</destination>
+		</relationship>
+	</object>
+</objects>

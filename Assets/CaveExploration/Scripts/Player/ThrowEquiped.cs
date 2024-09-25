@@ -40,10 +40,10 @@ namespace CaveExploration
         // Update is called once per frame
         void Update()
         {
-            //if (Input.GetAxis("FM") != 0)
-            //{
-            //    ThrowableThings(ThrowType.Fire);
-            //}
+            if (Input.GetAxis("FM") != 0)
+            {
+                ThrowableThings(ThrowType.Fire);
+            }
             //if (Input.GetAxis("WM") != 0)
             //{
             //    ThrowableThings(ThrowType.Water);
@@ -78,8 +78,8 @@ namespace CaveExploration
         {
             if (isEquiped)
             {
-                throwLight.Throwable = Throwables[Throwables.Length - 1];
-                throwLight.Capacity = Capacity[Throwables.Length - 1];
+                throwLight.Throwable = Throwables[ThrowType.Default.GetHashCode()];
+                throwLight.Capacity = Capacity[ThrowType.Default.GetHashCode()];
                 isEquiped = false;
             }
             else

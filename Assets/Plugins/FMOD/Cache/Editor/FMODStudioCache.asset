@@ -1,5 +1,629 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8850826877397907706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_Boss1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_Boss1
+  Guid:
+    Data1: -1228452556
+    Data2: 1341547117
+    Data3: -865509712
+    Data4: -1144206376
+  Banks:
+  - {fileID: -7742704231123692597}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 146938
+--- !u!114 &-7823976521671288259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_SwordHit
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_SwordHit
+  Guid:
+    Data1: -282572378
+    Data2: 1272564200
+    Data3: 1445107864
+    Data4: -99846574
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-7742704231123692597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: GAMESEED2024/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638615991800000000
+  FileSizes:
+  - Name: Desktop
+    Value: 7244000
+  Exists: 1
+--- !u!114 &-7727528821470491544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_Damage
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_Damage
+  Guid:
+    Data1: -1919290868
+    Data2: 1088495893
+    Data3: 518484108
+    Data4: 1541322504
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7451679835194335850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_Magic_Water
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_Magic_Water
+  Guid:
+    Data1: -855879110
+    Data2: 1257459292
+    Data3: -195610233
+    Data4: 1099841034
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7314510852374932850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_SwordSwing
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_SwordSwing
+  Guid:
+    Data1: -1867356500
+    Data2: 1276603112
+    Data3: 616050357
+    Data4: -690775426
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 450
+--- !u!114 &-6784873178389628101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_MagicHit_Earth
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_MagicHit_Earth
+  Guid:
+    Data1: 596088523
+    Data2: 1081989429
+    Data3: -615968369
+    Data4: -1201820701
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 329
+--- !u!114 &-6380600423176673754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_Walk
+  Guid:
+    Data1: -1614020010
+    Data2: 1265548279
+    Data3: 1630994606
+    Data4: 1690647396
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-6182263669309105982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/AmbForest
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/AmbForest
+  Guid:
+    Data1: 1616130034
+    Data2: 1300118205
+    Data3: -1879478378
+    Data4: 342900607
+  Banks:
+  - {fileID: -2091757333068415577}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 76666
+--- !u!114 &-6039750097405153345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_Dash
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_Dash
+  Guid:
+    Data1: 1942382574
+    Data2: 1208071397
+    Data3: -1204319616
+    Data4: 2102495769
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1388
+--- !u!114 &-5068201602546403680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_MainMenu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_MainMenu
+  Guid:
+    Data1: -946925876
+    Data2: 1245347799
+    Data3: -1177295740
+    Data4: 1897211657
+  Banks:
+  - {fileID: -7742704231123692597}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49655
+--- !u!114 &-4819228668645841938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_IntroCutscene
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_IntroCutscene
+  Guid:
+    Data1: -909494945
+    Data2: 1316374749
+    Data3: -349065810
+    Data4: 898584547
+  Banks:
+  - {fileID: -7742704231123692597}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
+--- !u!114 &-4751277206117055068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Wolf/EnemyWolf_Alert
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Wolf/EnemyWolf_Alert
+  Guid:
+    Data1: 410459855
+    Data2: 1078443305
+    Data3: -1893321037
+    Data4: -1054223048
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-4245240312638207590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_Magic_EarthBullet
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_Magic_EarthBullet
+  Guid:
+    Data1: 61598841
+    Data2: 1228318989
+    Data3: 1143966096
+    Data4: 894125631
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115
+--- !u!114 &-4065349177152305070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Wolf/EnemyWolf_Run
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Wolf/EnemyWolf_Run
+  Guid:
+    Data1: 2059400729
+    Data2: 1268187238
+    Data3: -509222725
+    Data4: 1260380782
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 520
+--- !u!114 &-2759320797883310364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Normal/EnemyNormal_Archer3D
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Normal/EnemyNormal_Archer3D
+  Guid:
+    Data1: 543440224
+    Data2: 1336544588
+    Data3: -1118065246
+    Data4: 253373367
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1666
+--- !u!114 &-2616206578073231704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HUD/HUD_ConsumePotion
+  m_EditorClassIdentifier: 
+  Path: event:/HUD/HUD_ConsumePotion
+  Guid:
+    Data1: 550499173
+    Data2: 1226613074
+    Data3: 303944372
+    Data4: 637519174
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2091757333068415577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: GAMESEED2024/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638615026310000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1075264
+  Exists: 1
+--- !u!114 &-1636329777133714150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_Attack
+  Guid:
+    Data1: -2052339427
+    Data2: 1247293363
+    Data3: 858939305
+    Data4: -133209214
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 972
+--- !u!114 &-1616550210935814654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Normal/EnemyNormal_Dead
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Normal/EnemyNormal_Dead
+  Guid:
+    Data1: 1957650049
+    Data2: 1270915905
+    Data3: -1330834505
+    Data4: 1146644907
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-1600573195351328181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: GAMESEED2024/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638615991760000000
+  FileSizes:
+  - Name: Desktop
+    Value: 3000
+  Exists: 1
+--- !u!114 &-1482705551498309056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MagicHit
+  m_EditorClassIdentifier: 
+  Name: MagicHit
+  StudioPath: parameter:/MagicHit
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3404330588
+    data2: 1593638057
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-775009535316707802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Wolf/EnemyWolf_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Wolf/EnemyWolf_Attack
+  Guid:
+    Data1: -970280131
+    Data2: 1314691688
+    Data3: -1161041761
+    Data4: 126097571
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-43624034046755349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_MagicAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_MagicAttack
+  Guid:
+    Data1: 826115209
+    Data2: 1260623602
+    Data3: -223437674
+    Data4: -1411835832
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1666
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +636,748 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
-  EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  EditorBanks:
+  - {fileID: -1600573195351328181}
+  - {fileID: -2091757333068415577}
+  - {fileID: 810556414204979143}
+  - {fileID: -7742704231123692597}
+  - {fileID: 8518580822593260235}
+  EditorEvents:
+  - {fileID: -6182263669309105982}
+  - {fileID: -8850826877397907706}
+  - {fileID: -4819228668645841938}
+  - {fileID: -5068201602546403680}
+  - {fileID: 7750859901763574869}
+  - {fileID: 3081951786356564115}
+  - {fileID: 568813312329337579}
+  - {fileID: 5292481174840320554}
+  - {fileID: 471638485179175260}
+  - {fileID: 8477017007437037159}
+  - {fileID: -7727528821470491544}
+  - {fileID: 4952374225556082706}
+  - {fileID: -4065349177152305070}
+  - {fileID: -1636329777133714150}
+  - {fileID: 3628480165210822354}
+  - {fileID: 5572968246410647185}
+  - {fileID: -7451679835194335850}
+  - {fileID: -775009535316707802}
+  - {fileID: 6184804724536236159}
+  - {fileID: -6380600423176673754}
+  - {fileID: -2759320797883310364}
+  - {fileID: 1269658498463454177}
+  - {fileID: -2616206578073231704}
+  - {fileID: 1663985212869783090}
+  - {fileID: -4245240312638207590}
+  - {fileID: 6670063073430488064}
+  - {fileID: -1616550210935814654}
+  - {fileID: -43624034046755349}
+  - {fileID: 3047033070336611502}
+  - {fileID: 2015042244225157659}
+  - {fileID: -7823976521671288259}
+  - {fileID: -7314510852374932850}
+  - {fileID: 2124994472792799253}
+  - {fileID: 2368475247024651880}
+  - {fileID: 8709398566198239505}
+  - {fileID: 1517135721243382658}
+  - {fileID: -6784873178389628101}
+  - {fileID: -4751277206117055068}
+  - {fileID: 3382463690380158610}
+  - {fileID: -6039750097405153345}
+  - {fileID: 3107060956312963093}
+  EditorParameters:
+  - {fileID: -1482705551498309056}
+  - {fileID: 6629940217761093307}
+  MasterBanks:
+  - {fileID: 810556414204979143}
+  StringsBanks:
+  - {fileID: -1600573195351328181}
+  cacheTime: 638615991800000000
   cacheVersion: 131619
+--- !u!114 &471638485179175260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Normal/EnemyNormal_Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Normal/EnemyNormal_Walk
+  Guid:
+    Data1: 274061832
+    Data2: 1318698193
+    Data3: -1867009347
+    Data4: 626170987
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 350
+--- !u!114 &568813312329337579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Tick
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Tick
+  Guid:
+    Data1: 1983844352
+    Data2: 1117801298
+    Data3: 526487720
+    Data4: 1050757274
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &810556414204979143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: GAMESEED2024/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638615991760000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1848
+  Exists: 1
+--- !u!114 &1269658498463454177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_Magic_Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_Magic_Fire
+  Guid:
+    Data1: 1733984357
+    Data2: 1109697776
+    Data3: 1342695837
+    Data4: -102181508
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1517135721243382658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HUD/HUD_ChangeMagic
+  m_EditorClassIdentifier: 
+  Path: event:/HUD/HUD_ChangeMagic
+  Guid:
+    Data1: -1497596220
+    Data2: 1210823028
+    Data3: 328357528
+    Data4: 255340662
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5932709602457324976}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1663985212869783090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_Laugh
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_Laugh
+  Guid:
+    Data1: 125257078
+    Data2: 1300723414
+    Data3: 805711291
+    Data4: -1882240022
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2361
+--- !u!114 &2015042244225157659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_LowHealth
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_LowHealth
+  Guid:
+    Data1: 524106906
+    Data2: 1210357386
+    Data3: 1021453488
+    Data4: 575967019
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2124994472792799253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Object/Object_Seed_Grow
+  m_EditorClassIdentifier: 
+  Path: event:/Object/Object_Seed_Grow
+  Guid:
+    Data1: -850728530
+    Data2: 1227765232
+    Data3: 1344396221
+    Data4: -1257838572
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4571543229306396926}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2368475247024651880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Back
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Back
+  Guid:
+    Data1: -1465775949
+    Data2: 1193445859
+    Data3: -36025472
+    Data4: -1553519454
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3047033070336611502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_Dash
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_Dash
+  Guid:
+    Data1: 794018457
+    Data2: 1091284937
+    Data3: -19282248
+    Data4: 987171595
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3081951786356564115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_Survive
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_Survive
+  Guid:
+    Data1: -1220802076
+    Data2: 1277039586
+    Data3: -1807632461
+    Data4: 1669551801
+  Banks:
+  - {fileID: -7742704231123692597}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 148071
+--- !u!114 &3107060956312963093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Wolf/EnemyWolf_Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Wolf/EnemyWolf_Idle
+  Guid:
+    Data1: 1952458479
+    Data2: 1092127895
+    Data3: 644377524
+    Data4: -715029089
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1280
+--- !u!114 &3382463690380158610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Normal/EnemyNormal_Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Normal/EnemyNormal_Hit
+  Guid:
+    Data1: -1074029609
+    Data2: 1273062427
+    Data3: -215420486
+    Data4: -848328853
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
+--- !u!114 &3628480165210822354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Player_DrinkingPotion
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Player_DrinkingPotion
+  Guid:
+    Data1: -353665751
+    Data2: 1249820532
+    Data3: 437835146
+    Data4: 1983385500
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4571543229306396926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Object_Seed_Grow/Grow
+  m_EditorClassIdentifier: 
+  Name: Grow
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2955526706
+    data2: 87897626
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Grow
+  - Final Grow
+  Exists: 1
+--- !u!114 &4952374225556082706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Normal/EnemyNormal_Sound
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Normal/EnemyNormal_Sound
+  Guid:
+    Data1: 1891181077
+    Data2: 1162434386
+    Data3: -947831394
+    Data4: -23543237
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1300
+--- !u!114 &5292481174840320554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Select
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Select
+  Guid:
+    Data1: 2130496517
+    Data2: 1212066040
+    Data3: -535507319
+    Data4: 1387209659
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5572968246410647185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Wolf/EnemyWolf_Dead
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Wolf/EnemyWolf_Dead
+  Guid:
+    Data1: -1733097423
+    Data2: 1198360125
+    Data3: 267303565
+    Data4: -303432653
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1215
+--- !u!114 &5932709602457324976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HUD_ChangeMagic/Magic
+  m_EditorClassIdentifier: 
+  Name: Magic
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2227440855
+    data2: 884062738
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Fire
+  - Water
+  - Earth
+  Exists: 1
+--- !u!114 &6184804724536236159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_SwordAttack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Boss_DemonLord/Enemy_DemonLord_SwordAttack
+  Guid:
+    Data1: 2064998466
+    Data2: 1138926839
+    Data3: 692668803
+    Data4: -241840452
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1388
+--- !u!114 &6629940217761093307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grow
+  m_EditorClassIdentifier: 
+  Name: Grow
+  StudioPath: parameter:/Grow
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2955526706
+    data2: 87897626
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Grow
+  - Final Grow
+  Exists: 1
+--- !u!114 &6670063073430488064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_MagicHit_Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_MagicHit_Fire
+  Guid:
+    Data1: 1384379775
+    Data2: 1158632151
+    Data3: 1277163948
+    Data4: 566936272
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1700
+--- !u!114 &7750859901763574869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_Combat
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music_Combat
+  Guid:
+    Data1: -1633247774
+    Data2: 1260357779
+    Data3: 779570854
+    Data4: 316500476
+  Banks:
+  - {fileID: -7742704231123692597}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 123564
+--- !u!114 &8477017007437037159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy/Enemy_Normal/EnemyNormal_SwordAttack3D
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy/Enemy_Normal/EnemyNormal_SwordAttack3D
+  Guid:
+    Data1: 998322186
+    Data2: 1078717771
+    Data3: -407262789
+    Data4: -585641834
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 555
+--- !u!114 &8518580822593260235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: GAMESEED2024/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638615620390000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1245504
+  Exists: 1
+--- !u!114 &8709398566198239505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Object/Object_Seed_Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Object/Object_Seed_Ambience
+  Guid:
+    Data1: 1891625405
+    Data2: 1107941112
+    Data3: 1542299791
+    Data4: -133424503
+  Banks:
+  - {fileID: 8518580822593260235}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25038

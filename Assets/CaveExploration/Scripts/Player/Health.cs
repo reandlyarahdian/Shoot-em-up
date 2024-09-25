@@ -137,10 +137,7 @@ namespace CaveExploration
 
         private IEnumerator Dead()
         {
-			if(player != null)
-			{
-				player.IsDead = true;
-			}
+            player.IsDead = true;
             yield return new WaitForSeconds(1.5f);
 
             OnDead();
